@@ -39,7 +39,7 @@
           <div *ngFor="let d of dish.comments">
             <p> {{d.comment}} </p>
             <p> {{d.rating}} starts </p>
-            <p> {{d.date | date}} </p>
+            <p>  -- {{d.author}} &nbsp; {{d.date | date}} </p>
             <br>
         </div>
         </mat-card-content>
